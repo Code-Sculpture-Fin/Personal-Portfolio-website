@@ -1,0 +1,384 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    
+}
+body{
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 90%;
+    
+}
+
+.top-bar{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(8, 2, 83);
+    position: fixed;
+    display: flex;
+}
+.top{
+    height: 20px;
+    position: relative;
+    animation: mymove 30s infinite;
+    animation-delay: 0s;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+  }
+  /*section one*/
+  
+  .container-first{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 0.5px;
+    justify-content: space-between;
+    border: 1px solid rgb(249, 245, 245);
+    padding-bottom: 0px;
+    padding-top: 35px;
+    
+    
+    
+    
+  }
+  .container-first > div {
+    background-color: none;
+    text-align: center;
+    
+    
+  }
+  .nav-container{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(250, 246, 246);
+   
+  }
+  .logo{
+    font-family: Roboto;
+    color: rgb(4, 4, 134);
+    
+  }
+  .image{
+    width: 250px;
+    height: 300px;
+    border-radius: 360cqmin;
+    align-items: center;
+    border: 3px solid rgb(154, 222, 241);
+    
+    
+  }
+  .image-div{
+    align-items: center;
+    
+  }
+  .table{
+    
+    font-family: Roboto;
+    font-size: 15px;
+    
+    grid-template-columns: 1rf 1rf;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5px;
+    padding: 5px;
+    color: rgb(15, 4, 70);
+    text-align: start;
+    margin: 10px;
+   
+    
+  }
+  .container-second{
+    background-color: rgb(233, 245, 250);
+    font-family: Roboto;
+  }
+  .links-image{
+    height: 20px;
+    width: 20px;
+  }
+  .name-p{
+    padding: 8px;
+  }
+  
+  p {
+    font-size: 13px;
+  }
+  
+.resume{
+  font-weight: bold;
+  border: 3px solid rgb(244, 244, 246);
+  background-color: rgb(3, 3, 74);
+  border-radius: 30px;
+  padding: 5px;
+  font-size: 80%;
+  margin: 10px;
+  color: white;
+  
+
+}
+.Social-icon{
+  width: 32px;
+  padding: 2px;
+}
+.right{
+  padding: 10px;
+}
+
+/*section two*/
+
+.container-third{
+  font-family: Roboto;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: 0.5px;
+  justify-content: space-between;
+  border: 0px solid rgb(19, 2, 2);
+  text-align: center;
+  
+}
+
+
+
+.about-me{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1px;
+  justify-content: space-between;
+  text-align: center;
+  border: 0px solid rgb(19, 2, 2);
+
+}
+
+
+.open-space{
+  background-color: rgb(233, 245, 250);
+  border: 0px solid black;
+
+}
+
+.header-line{
+  grid-column: 1/ span2;
+  grid-row: 1;
+  border: 0px solid rgb(19, 2, 2);
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+  
+}
+.picture{
+  border: 3px solid rgb(154, 222, 241);
+  align-items: center;
+
+  
+
+}
+
+
+.about-qulification{
+  
+  display: grid;
+  gap: 2px;
+  justify-content: space-between;
+  border: 0px solid rgb(19, 2, 2);
+}
+.experience{
+  border: 1px solid black;
+  border-radius: 20px;
+  grid-column: 1;
+  grid-row: 1;
+  margin-bottom: 5px;
+  width: 200px;
+  margin-left: 50px;
+  
+  
+ 
+  
+}
+.education{
+  border: 1px solid black;
+  border-radius: 20px;
+  grid-column: 2;
+  grid-row: 1;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 200px;
+  
+ 
+  
+  
+}
+.about-para{
+  grid-column: 1/ span 2;
+  grid-row: 2;
+  border: 0px solid rgb(19, 2, 2);
+  
+
+
+
+}
+#experience-image{
+  height: 170px;
+
+}
+
+#education-image{
+  height: 170px;
+
+} 
+
+/*--Section three--*/
+.container-four{
+  font-family: Roboto;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: 0.5px;
+  justify-content: space-between;
+  border: 0px solid rgb(19, 2, 2);
+  text-align: center;
+  
+  
+
+}
+.open-space-2{
+  border: 0px solid rgb(19, 2, 2);
+
+}
+.container-Experiences{
+  border: 0px solid rgb(19, 2, 2);
+  display: grid;
+  grid-template-rows: auto;
+  
+
+}
+
+.header-line-2{
+  
+  border: 0px solid rgb(19, 2, 2);
+  
+  
+  
+}
+.expereience-box{
+  display: grid;
+  border: 0px solid rgb(19, 2, 2);
+  grid-template-columns: 50% 50%;
+  
+  
+}
+.experience-1{
+ 
+  border: 1px solid rgb(19, 2, 2);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 30px;
+  
+  margin: 7px;
+
+}
+.experience-2{
+  border: 1px solid rgb(19, 2, 2);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 30px;
+  
+  margin: 7px;
+ 
+  
+}
+
+.ex-div{
+  border: 0px solid black;
+  
+ 
+}
+
+.ex-div img{
+  width: 32px;
+  
+}
+
+/*--section four--*/
+.container-five{
+  font-family: Roboto;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: 0.5px;
+  justify-content: space-between;
+  border: 0px solid rgb(19, 2, 2);
+  
+
+}
+.container-contact{
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1px;
+  justify-content: space-between;
+  border: 0px solid black;
+  text-align: center;
+  border-radius: 20px;
+  
+}
+.content{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 20px;
+  
+}
+
+.social-contact-email{
+  display: flex;
+  align-items: center;
+  border: 0px solid black;
+  
+}
+.social-contact-linkin{
+  display: flex;
+  align-items: center;
+  border: 0px solid black;
+  text-align: end;
+  
+  width: 740px;
+
+  
+}
+.icon-social{
+  width: 32px;
+}
+
+.social-contact a h4{
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
